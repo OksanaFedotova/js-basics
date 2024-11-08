@@ -17,7 +17,7 @@ describe('Test suite for string manipulation functions', () => {
     expect(concatenateStrings('', 'bb')).toBe('bb');
   });
 
-  // Тест для функции getStringLength
+  //Тест для функции getStringLength
   test('getStringLength should return the correct length of the string', () => {
     expect(getStringLength('test')).toBe(4);
     expect(getStringLength('')).toBe(0);
@@ -45,9 +45,7 @@ describe('Test suite for string manipulation functions', () => {
 
   // Тест для функции getRectangleString
   test('getRectangleString should return the correct string representation of the rectangle', () => {
-    const expected = '*****\n*   *\n*   *\n*****\n'; 
-    console.log('result at tests', getRectangleString(5, 4))
-    console.log(expected)
+    const expected = '*****\n*   *\n*   *\n*****'; 
     expect(getRectangleString(5, 4)).toBe(expected);
   });
 
